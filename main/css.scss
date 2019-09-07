@@ -142,9 +142,9 @@ body{
 
 
         input{
-            width:calc(100%- 1em) !important;
+            width:calc(100% - 1em)!important;
             margin:1em 0;
-            text-align:right;
+           
         }
 
         button {
@@ -153,6 +153,7 @@ body{
      }
 
      .proto-container{
+         clip-path:inset(0 45% 0 0);
          position:absolute;
          top:20%;
          height:70%;
@@ -170,4 +171,21 @@ body{
              transform:translateX(10%);
          }
      }
+}
+
+@media only screen and (min-width: 1600px){
+
+     body{
+         font-size:22px;
+     }
+
+    .content{
+        padding: 0 6em !important;
+    }
+
+  
+    .right{
+        padding: 0 !important;
+    }
+
 }
