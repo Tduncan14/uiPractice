@@ -152,4 +152,22 @@ body{
         }
      }
 
+     .proto-container{
+         position:absolute;
+         top:20%;
+         height:70%;
+         z-index:0;
+         width:100%;
+         pointer-events:none;
+
+
+         .proto{
+            border: 3px solid rgba(255, 255, 255, 0.1);
+             width:19%;
+             height:80%;
+             float:left;
+             margin-left:1em;
+             transform:translateX(10%);
+         }
+     }
 }

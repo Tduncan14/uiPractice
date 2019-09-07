@@ -134,5 +134,22 @@ body {
   .right button {
     width: 100% !important;
   }
+  .proto-container {
+    position: absolute;
+    top: 20%;
+    height: 70%;
+    z-index: 0;
+    width: 100%;
+    pointer-events: none;
+  }
+  .proto-container .proto {
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    width: 19%;
+    height: 80%;
+    float: left;
+    margin-left: 1em;
+    -webkit-transform: translateX(10%);
+            transform: translateX(10%);
+  }
 }
 /*# sourceMappingURL=css.css.map */
